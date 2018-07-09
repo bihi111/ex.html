@@ -1,0 +1,42 @@
+.myclass{
+	background-image:url("https://images.pexels.com/photos/610293/pexels-photo-610293.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+	background-position:top; 
+	 }
+h1{
+
+	font-size: 50px;
+	text-align:center;
+	padding-top: 300px;
+	
+
+}	 
+h2{
+	font-size: 40px;
+	text-align: center;
+    color: 	#00FFFF;
+    margin-right: : 300px;
+    	padding-bottom: 300px;
+}
+h3{
+	color: #808080;
+    text-align: center;
+    font-size: 45px;
+}
+img{
+	filter: blur(1px);
+}
+img:hover{
+	transform: translateY(-50px);
+    filter: blur(0px);
+
+}
+
+h3::after{ 
+    content:"";
+    display: block;
+    background-color:red;
+    width:20%;
+    height:2px;
+    margin: 20px auto;
+    
+}
